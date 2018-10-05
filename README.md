@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the RosyWrt "luci"-feed based on [LuCI](https://github.com/openwrt/luci) Project from [OpenWrt](https://github.com/openwrt/openwrt). It contains [luci-theme-rosy](https://github.com/rosywrt/luci-theme-rosy).
+This is the RosyWrt "luci"-feed based on [LuCI](https://github.com/openwrt/luci) Project from [OpenWrt](https://github.com/openwrt/openwrt). It contains [luci-theme-rosy](https://github.com/rosywrt/luci-theme-rosy).**openwrt-18.06** branch is recommended if you are interested in this project.
 
 ## Usage
 
@@ -31,4 +31,4 @@ See [LICENSE](LICENSE) file.
 
 * Development [Wiki](https://github.com/openwrt/luci/wiki).
 
-* [Package Guidelines](CONTRIBUTING.md)  file.
+* Package [Guidelines](CONTRIBUTING.md) file.
