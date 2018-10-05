@@ -1,14 +1,14 @@
-# OpenWrt luci feed
+# RosyWrt luci feed
 
 ## Description
 
-This is the OpenWrt "luci"-feed containing LuCI - OpenWrt Configuration Interface.
+This is the RosyWrt "luci"-feed based on [LuCI](https://github.com/openwrt/luci) Project from [OpenWrt](https://github.com/openwrt/openwrt). It contains [luci-theme-rosy](https://github.com/rosywrt/luci-theme-rosy).
 
 ## Usage
 
 This feed is enabled by default. Your feeds.conf.default (or feeds.conf) should contain a line like:
 ```
-src-git luci https://github.com/openwrt/luci.git
+src-git luci https://github.com/rosywrt/luci.git
 ```
 
 To install all its package definitions, run:
@@ -17,18 +17,18 @@ To install all its package definitions, run:
 ./scripts/feeds install -a -p luci
 ```
 
-## API Reference
+## Contact RosyWrt
+* Bug Report : https://github.com/rosywrt/luci/issues
 
-You can browse the generated API documentation [directly on Github](http://htmlpreview.github.io/?http://raw.githubusercontent.com/openwrt/luci/master/documentation/api/index.html).
-
-## Development
-
-Documentation for developing and extending LuCI can be found [in the Wiki](https://github.com/openwrt/luci/wiki)
+* QQ Gourp : 428742246
 
 ## License
 
 See [LICENSE](LICENSE) file.
- 
-## Package Guidelines
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) file.
+## References
+* API [documentation](http://htmlpreview.github.io/?http://raw.githubusercontent.com/openwrt/luci/master/documentation/api/index.html).
+
+* Development [Wiki](https://github.com/openwrt/luci/wiki).
+
+* [Package Guidelines](CONTRIBUTING.md)  file.
