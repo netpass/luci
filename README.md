@@ -17,7 +17,7 @@ To install all its package definitions, run:
 ./scripts/feeds install -a -p luci
 ```
 
-## Contact RosyWrt
+## Contact
 * Bug Report : https://github.com/rosywrt/luci/issues
 
 * QQ Gourp : 428742246
